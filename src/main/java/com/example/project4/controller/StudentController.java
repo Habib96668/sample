@@ -24,6 +24,8 @@ public class StudentController {
 	public String getDetails() {
 		return "index";
 	}
+	
+	// nesarajan branch
 
 	@PostMapping("savedetails")
 	public RedirectView savedetails(Student student) {
