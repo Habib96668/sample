@@ -24,6 +24,8 @@ public class StudentController {
 	public String getDetails() {
 		return "index";
 	}
+	
+	// testing purpose
 
 	@PostMapping("savedetails")
 	public RedirectView savedetails(Student student) {
