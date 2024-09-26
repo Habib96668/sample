@@ -29,6 +29,8 @@ public class StudentController {
 	
 	// testing purpose 1
 
+	// testing purpose 2
+
 	@PostMapping("savedetails")
 	public RedirectView savedetails(Student student) {
 //		studentservice.savedetails(student);
