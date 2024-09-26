@@ -28,8 +28,6 @@ public class StudentController {
 	// nesarajan branch
 
 	// nesarajan branch 1
-	
-	// nesarajan branch 2
 
 	@PostMapping("savedetails")
 	public RedirectView savedetails(Student student) {
