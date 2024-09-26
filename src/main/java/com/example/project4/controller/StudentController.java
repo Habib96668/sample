@@ -43,6 +43,8 @@ public class StudentController {
 		studentrepository.save(student);
 		return new RedirectView("index");
 	}
+
+	// testing purpose 7
 	
 //	@PostMapping("savedetails")
 //	public String savedetails(Student student) {
